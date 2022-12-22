@@ -7,8 +7,6 @@ h1 {
   text-transform: uppercase;
 }
 
-
-
 .container {
   margin: 0 auto;
 }
@@ -45,8 +43,6 @@ h1 {
   height: 15px;
 }
 
-
-
 .color {
   font-size: 30px;
   border: 5px;
@@ -61,13 +57,9 @@ h1 {
 
 }
 
-/* Formulario */
-
 input[name="title"] {
   width: 100%;
 }
-
-/* Element | http://localhost:3000/ */
 
 .container>form:nth-child(1) {
   display: flex;
@@ -78,21 +70,16 @@ input[name="title"] {
   margin: auto;
 }
 
-/* Inline #1 | http://localhost:3000/ */
-
 form>div {
   display: flex;
   justify-content: center;
 }
 
-/* form > div { */
 form>div:first-child {
   justify-content: flex-end;
   align-items: center;
   flex-direction: column;
 }
-
-/* Element | http://localhost:3000/ */
 
 .container>form:nth-child(1)>div:nth-child(1)>label:nth-child(1) {
   /* margin-right: auto; */
@@ -100,14 +87,10 @@ form>div:first-child {
   text-transform: uppercase;
 }
 
-/* Element | http://localhost:3000/ */
-
 .container>form:nth-child(1)>div:nth-child(2) {
   display: flex;
   justify-content: space-between;
 }
-
-/* Element | http://localhost:3000/ */
 
 .container>form:nth-child(1)>input:nth-child(3) {
   outline: none;
@@ -116,4 +99,26 @@ form>div:first-child {
   text-transform: uppercase;
   background-color: gold;
   border-radius: 5px;
+}
+
+/* Input color */
+input[type="color"] {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  background-color: transparent;
+  width: 40px;
+  height: 40px;
+  border: none;
+  cursor: pointer;
+}
+
+input[type="color"]::-webkit-color-swatch {
+  border-radius: 50%;
+  border: none;
+}
+
+input[type="color"]::-moz-color-swatch {
+  border-radius: 50%;
+  border: none;
 }
