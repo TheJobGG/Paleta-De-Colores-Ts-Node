@@ -1,0 +1,28 @@
+# Node modules
+node_modules
+package-lock.json
+
+# Compiled output
+*.js
+*.js.map
+
+# TypeScript cache files
+.tscache
+
+# Optional npm cache directory
+.npm
+
+# Output of 'npm pack'
+*.tgz
+
+# Yarn integrity file
+.yarn-integrity
+
+# dotenv environment variable files
+.env
+
+# TypeScript configuration files
+tsconfig.json
+
+# TSLint configuration files
+tslint.json

@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./css/styles.css">
+  <link rel="shortcut icon" href="./assets/color-palette.png" type="image/x-icon">
+  <title>Color Palette</title>
+</head>
+
+<body>
+  <h1>Color Pallete</h1>
+  <div class="container">
+    <form action="/register" method="post">
+      <div>
+        <label for="title">Title</label>
+        <input type="text" name="title" required />
+      </div>
+      <div>
+        <input type="color" name="color1" id="">
+        <input type="color" name="color2" id="">
+        <input type="color" name="color3" id="">
+        <input type="color" name="color4" id="">
+      </div>
+
+      <input type="submit" value="Create palette">
+    </form>
+
+    <div id="items"></div>
+  </div>
+  <script src="./js/indexFront.js" type="module"></script>
+</body>
+
+</html>
